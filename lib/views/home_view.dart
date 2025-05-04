@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/views/search_view.dart';
-// import 'package:weather_app/widgets/no_weather_body.dart';
-import 'package:weather_app/widgets/weather_info_body.dart';
+import 'package:weather_app/widgets/no_weather_body.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -26,7 +25,16 @@ class HomeView extends StatelessWidget {
           )
         ],
       ),
-      body: const WeatherInfoBody(),
+      body: const NoWeatherBody(),
     );
   }
 }
+// BloC => Business Logic Component
+// cubit => a state management solution that is part of the BloC library.
+
+// create states
+// create cubit
+// create function
+// provide cubit
+// integrate cubit
+// trigger cubit
