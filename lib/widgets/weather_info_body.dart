@@ -61,7 +61,7 @@ class WeatherInfoBody extends StatelessWidget {
             height: 32,
           ),
           const Text(
-            'Ligh Rain',
+            'Light Rain',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 32,

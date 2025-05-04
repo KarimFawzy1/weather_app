@@ -37,7 +37,11 @@ class HomeView extends StatelessWidget {
             return const WeatherInfoBody();
           } else {
             return const Center(
-              child: Text('Oops! Something went wrong'),
+              child: Text('Oops! Something went wrong',
+                  style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.red,
+                      fontWeight: FontWeight.bold)),
             );
           }
         },
